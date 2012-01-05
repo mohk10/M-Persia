@@ -1,0 +1,55 @@
+/* =====================================================================================
+ *
+ * 
+ * Definitions related to tables. 
+ * 
+ * 
+ */
+ 
+
+/* -------------------------------------------------------------------------------------
+/* Tables */
+
+table.standard {}
+
+table.full-width {
+    width: 99%;
+}
+
+/*
+colgroup {}
+col{}
+thead {}
+tbody {}
+tfoot {}
+th {}
+td {}
+caption {}
+*/
+
+/* -------------------------------------------------------------------------------------
+/* Show/download file details */
+
+table.filedetails-show {}
+
+table.filedetails-show col.header {
+    background: #eee;
+    width: 12em;
+}
+
+table.filedetails-show td {
+    padding: 0.5em;
+    font-size: 1.3em;
+    word-wrap: break-word; /* CSS3 */    
+    -ms-word-wrap: break-word; /* IE8 */    
+}
+
+table.filedetails-show caption {
+    caption-side: top; 
+    padding-bottom: 0.5em;
+    text-align: left;
+    font-style: italic;
+}
+table.mywidth1{
+	width:99%;
+}

@@ -1,0 +1,206 @@
+/* =====================================================================================
+ *
+ * 
+ * All definitions related to colors and background images. 
+ * Change color scheme in this file.
+ * 
+ */
+ 
+
+/* -------------------------------------------------------------------------------------
+/* Color scheme 
+/* Palette URL: http://colorschemedesigner.com/#0011DuBi2dgI1 */
+.primary-1 { background-color: #900606 }
+.primary-2 { background-color: #811212 } /* darklight */
+.primary-3 { background-color: #7B0404 } /* dark */
+.primary-4 { background-color: #DE5454 } /* lightdark */
+.primary-5 { background-color: #DE9090 } /* light */
+
+
+/* -------------------------------------------------------------------------------------
+/* Pagestructure */
+html,
+body {}
+
+div#wrap {}
+
+div#top {
+	background: #E3E0D1;
+}
+
+div#head {}
+
+div#title {
+	background: #7B0404 /* dark */ /*#970601 url(nav-tab.png) repeat-x*/;
+}
+div#title p {
+	color: #DDDDDD;
+}
+
+div#footer {
+	background: #811212 /* darklight */ /* url(nav-tab.png) repeat */;
+}
+div#footer p {
+	color: #DDDDDD;
+}
+
+div#bottom {
+	background: #E3E0D1;
+}
+div#bottom p {
+	color: #999999;
+}
+
+div.sidebox {
+	background: #E3E0D1;
+}
+
+
+/* -------------------------------------------------------------------------------------
+/* Navigation bar */
+
+div#nav {}
+div#nav ul {
+	background: #970601 url(nav-tab.png) repeat-x;
+}
+div#nav li {}
+div#nav a {
+	border-right: 1px solid #bb1600;
+	border-bottom: none;
+	border-left: 1px solid #b21203;
+	color: #fff;
+	background: #970601 url(nav-tab.png) repeat-x;
+}
+div#nav a:hover,
+div#nav a:focus {
+	background: #b31203 url(nav-tab.png) repeat-x 0 -150px;
+}
+div#nav .sel a {
+	background: #720000 url(nav-tab.png) repeat-x 0 -300px;
+}
+div#nav .sel a:hover,
+div#nav .sel a:focus {
+	background: #b31203 url(nav-tab.png) repeat-x 0 -150px;
+}
+
+/* -------------------------------------------------------------------------------------
+/* Settings */
+
+div#settings { background: #DE5454 /* lightdark */; }
+div#settings div#swrap {
+	background: #DE9090 /* light */;
+	border: 4px solid #DE9090 /* light */;
+}
+div#settings div.sblock {
+	background: transparent;
+	border: 1px solid transparent;
+}
+div#settings div.stitle {
+	background: transparent;
+	border-bottom: 1px solid  #DE5454 /* lightdark */;
+}
+div#settings div.scontent {
+	background: transparent;
+	border-bottom: 1px solid  #DE5454 /* lightdark */;
+}
+
+/* -------------------------------------------------------------------------------------
+/* Settings menu bar */
+
+div#smenu .sel a { background: #DE9090 /* light */; }
+
+
+/* -------------------------------------------------------------------------------------
+ * pageBody supporting 3 column liquid layout 
+ *
+ */
+div.pageBody {}
+div.pageBodyContainer {}
+div.pageBodyContent {}
+
+div.pageBodyLeft2, div.pageBodyLeft3  {
+	background-color: fuchsia;
+}
+
+div.pageBodyRight2, div.pageBodyRight3 {
+	background-color: navy;
+}
+
+div.pageBodyMain1, div.pageBodyMain2, div.pageBodyMain3 {
+	background-color: teal;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Other functional divs, not part of the main structure of the website
+ *
+ */
+ 
+div.login {
+	background-color: transparent;
+}
+
+div.errorMessage {
+	background-color: #DE9090;
+	color: #111111;
+}
+
+/* To display code. */
+fieldset.code {
+	background-color: #eeeeee;
+	color: #111111;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Fonts
+ *
+ */
+ 
+h1 {}
+h2 {}
+h3.menu {}
+
+p.small {}
+
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Links
+ *
+ */
+ 
+a, a:visited {
+	color: #111111;
+}
+
+a:hover {
+	color: #7F3A34;
+}
+
+/* Links in the bottom paragraph */
+div#bottom a, 
+div#bottom a:visited {
+	color: #999999;
+}
+
+div#bottom a:hover {
+	color: #7F3A34;
+}
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Tables
+ *
+ */
+ 
+th, td {	
+	color: #111111;
+}
+
+th {
+	background: #cccccc;
+}

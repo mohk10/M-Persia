@@ -1,0 +1,145 @@
+/* =====================================================================================
+ *
+ * 
+ * All definitions related to navigation bars and menus, 
+ * except fonts, colors and background images (except borders). 
+ *
+ * 
+ */
+ 
+/* -------------------------------------------------------------------------------------
+/* Navigation items, standard setup */
+div.nav-standard {
+    clear: both;
+}
+
+div.nav-standard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.nav-standard li {
+    float: left;
+    margin: 0 0.5em 0 0.5em;
+}
+
+
+
+/* -------------------------------------------------------------------------------------
+/* Navigation items, nav-standard but looking as a button */
+
+div.nav-button li {
+    margin: 0 0.15em 0 0.15em;
+}
+
+div.nav-button li a {
+    height: 2em;
+    line-height: 2em;
+    float: left;
+    display: inline;
+}
+
+div.nav-button li a {
+    background: url(../../img/css/button-background.png) #fff repeat-x;
+    background-position: bottom left;
+    height: 2em;
+    line-height: 2em;
+    float: left;
+    width: 9em;
+    display: block;
+    border: 0.1em solid #dcdce9;
+    text-decoration: none;
+    text-align: center;
+}
+
+div.nav-button li a:hover {
+    text-decoration: underline;
+    border: 0.1em solid #95959F;
+}
+
+div.nav-button li a:active {
+    background-position: top left;
+    text-decoration: underline;
+    border: 0.1em solid #4A4A4F;
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------
+/* http://www.webcredible.co.uk/user-friendly-resources/css/css-navigation-menu.shtml */
+/* Navigation items, as buttons */
+
+/*div.nav-links {
+    width:30em
+}
+
+div.nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.nav-links li {
+    float: left;
+    margin: 0 0.5em 0 0.5em;
+}
+
+div.nav-links li a {
+    height: 2em;
+    line-height: 2em;
+    float: left;
+    display: inline;
+}
+
+div.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+div.nav-button li a {
+    background: url(../../img/css/background-button.gif) #fff bottom left repeat-x;
+    height: 2em;
+    line-height: 2em;
+    float: left;
+    width: 9em;
+    display: block;
+    border: 0.1em solid #dcdce9;
+    text-decoration: none;
+    text-align: center;
+}
+*/
+
+/* -------------------------------------------------------------------------------------
+/* Top menu */
+/* Navigation bar */
+
+div#nav {
+    clear: both;
+    padding-top: 3px;
+    font: 1em/2 Verdana, Sans-serif;
+}
+div#nav ul {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div#nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+div#nav a {
+    display: block;
+    float: left;
+    padding: 0 12px;
+    text-decoration: none;
+}
+div#nav a:hover,
+div#nav a:focus {}
+div#nav .sel a {}
+div#nav .sel a:hover,
+div#nav .sel a:focus {}
+

@@ -1,0 +1,139 @@
+/* =====================================================================================
+ *
+ * stylesheet.css
+ *
+ */
+ 
+ 
+/* -------------------------------------------------------------------------------------
+ *
+ * General
+ *
+ */
+ 
+body {	
+	font-family: Verdana, Sans-serif;
+	font-size: small;
+	color: #111111;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Pagestructure
+ *
+ */
+
+div.page {
+	min-width: 750px;
+}
+
+div.login {
+	background-color: white;
+	border: none;
+	padding-bottom: 5px;
+	margin: 0px;
+	text-align: right;
+}
+
+div.pageHeader {
+	background-color: white;
+	border: dashed #333333 1px;
+}
+
+div.pageHeaderMenu {
+	background-color: white;
+	border: 0px;
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: small;
+}
+
+div.pageBody {
+	background-color: white;
+	border: dashed #333333 1px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+div.pageFooter {
+	background-color: white;
+	border: dashed #333333 1px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Divs
+ *
+ */
+ 
+div.errorMessage {
+	background-color: #7F3A34;
+	color: #111111;
+	border: #333333 4px solid;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+fieldset.code {
+	background-color: #eeeeee;
+	color: #111111;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Fonts
+ *
+ */
+ 
+h1 {
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	border-bottom: double #333333 4px;
+}
+
+p.small {
+	font-size: x-small;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Links
+ *
+ */
+ 
+a, a:visited {
+	color: #111111;
+}
+
+a:hover {
+	color: #7F3A34;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Tables
+ *
+ */
+ 
+th, td {	
+	font-family: Verdana, Sans-serif;
+	font-size: small;
+	color: #111111;
+}
+
+th {
+	background: #cccccc;
+}

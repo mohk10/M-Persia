@@ -1,0 +1,59 @@
+/*
+// -------------------------------------------------------------------------------------------
+//
+// Stylesheet
+// Author: Morgan Hagberg
+// 
+*/
+body{
+	background-image:url('red_gradient2.png');
+	background-repeat: repeat-x;
+	height: 800px;
+	color:#000;
+}
+	
+#navigation {
+	float:left;
+	width:11em;
+	
+}
+#content{
+	width:700px;
+	margin:auto;
+	color:#fff;
+}
+div.content2{
+	width:700px;
+	margin:auto;
+}
+div.overskrift{
+	font-size:2em;
+	font-weight:bold;
+	position:relative;
+	left:6em;
+}
+/* Style for links */
+a, a:visited {
+    color: #000000;
+    font-size:1.25em;
+}
+
+a:hover {
+    color: #000000;
+    background: #FFFFFF;
+    font-size:1.25em;
+}
+ol{
+	position:relative;
+	left:5em;
+	font-weight:bold;
+	font-size:1.25em;
+}
+h1{
+	position:relative;
+	left:2em;
+}
+.begin{
+	color:#fff;
+}
+

@@ -1,0 +1,204 @@
+/* =====================================================================================
+ *
+ * stylesheet.css
+ *
+ */
+ 
+ 
+/* -------------------------------------------------------------------------------------
+ *
+ * General
+ *
+ */
+ 
+body {	
+	font-family: Verdana, Sans-serif;
+	font-size: small;
+	color: #111111;
+  margin: 0 auto;             
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Pagestructure
+ *
+ */
+
+div.page {
+    min-width: 750px;
+    /* width: 750px; */               
+		margin-left: 50px;
+		margin-right: 50px;
+    vertical-align: middle;
+}
+
+div.login {
+	background-color: white;
+	border: none;
+	padding-bottom: 5px;
+	margin: 0px;
+	text-align: right;
+}
+
+div.pageHeader {
+	background-color: white;
+	border: dashed #333333 1px;
+}
+
+div.pageHeaderMenu {
+	background-color: white;
+	border: 0px;
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: small;
+}
+
+div.pageFooter {
+	background-color: white;
+	border: dashed #333333 1px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ * pageBody supporting 3 column liquid layout 
+ *
+ */
+div.pageBody {
+	background-color: white;
+	border: dashed #333333 1px;
+	margin-top: 10px;
+}
+
+/* Container column spans content column */
+div.pageBodyContainer {
+ 	width: 100%;
+	float: left;
+	margin-right: -200px;
+}
+
+/* Content column spans left & main column */
+div.pageBodyContent {
+	margin-right: 200px;
+}
+
+/* The left column */
+div.pageBodyLeft2, div.pageBodyLeft3  {
+  float: left;
+  width: 160px;
+  background-color: springgreen;
+}
+
+/* The right column */
+div.pageBodyRight2, div.pageBodyRight3 {
+		float: right;
+    width: 200px;
+    background-color: steelblue;
+}
+
+/* The main column */
+div.pageBodyMain1, div.pageBodyMain2, div.pageBodyMain3 {
+    /* float: left; */
+    /* width: 408px; */
+    margin-left: 160px;
+    background-color: darksalmon;
+}
+
+/* Clearer */
+div.clear {
+	height: 0;
+  clear: both;
+}
+
+p.last {
+	margin-bottom: 0;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Other functional divs, not part of the main structure of the website
+ *
+ */
+ 
+div.errorMessage {
+	background-color: #7F3A34;
+	color: #111111;
+	border: #333333 4px solid;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+/* To display code. */
+fieldset.code {
+	background-color: #eeeeee;
+	color: #111111;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Fonts
+ *
+ */
+ 
+h1 {
+	margin-top: 0;
+	padding-top: 10px;
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0;
+	padding-top: 10px;
+	text-transform: uppercase;
+	border-bottom: double #333333 4px;
+}
+
+p.small {
+	font-size: x-small;
+}
+
+/* For the menu column, header */
+h3.menu {
+	text-transform: uppercase;
+	border-bottom: double #333333 1px;
+	font-size: small;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Links
+ *
+ */
+ 
+a, a:visited {
+	color: #111111;
+}
+
+a:hover {
+	color: #7F3A34;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Tables
+ *
+ */
+ 
+th, td {	
+	font-family: Verdana, Sans-serif;
+	font-size: small;
+	color: #111111;
+}
+
+th {
+	background: #cccccc;
+}

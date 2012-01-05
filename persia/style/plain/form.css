@@ -1,0 +1,165 @@
+/* =====================================================================================
+ *
+ * 
+ * Definitions related to fieldset, forms and form elements. 
+ * Definitions for fonts and colors are in their own file, color.css and font.css.
+ * 
+ */
+ 
+
+/* -------------------------------------------------------------------------------------
+/* General settings */
+/* Login form*/
+/* Editor settings */
+/* Account profile settings */
+
+/* fieldset */
+fieldset.loginform,
+fieldset.editor,
+fieldset.accountsettings,
+fieldset.standard {
+    padding: 1.5em 0.5em 1em 0.5em;
+    border: 2px #ccc solid;
+}
+
+/* Wrapper around whole form */
+fieldset.standard div.form-wrapper {}
+
+/* Wrapper around button bar */
+fieldset.standard div.buttonbar {}
+
+/* Status output from form being submitted */
+fieldset.standard div.form-status {}
+
+/* legend */
+fieldset.standard legend {
+    border:3px solid #ccc; 
+    padding: 0.2em 2em 0.2em 0.2em;
+    font-family: inherit;
+    font-size: 1.2em;
+    text-transform: uppercase; /* capitalize uppercase */
+    font-weight: bold; 
+}
+
+/* label */
+fieldset.standard label {
+    clear: both;
+    float:left;
+    padding-right: 0.5em;
+    text-align: left;
+}
+
+/* input */
+fieldset.loginform input,
+fieldset.editor input, 
+fieldset.accountsettings input,
+fieldset.standard input {
+    width: 24em;
+    height: 2em;
+    font-size: 1.3em;
+}
+
+/* textarea */
+fieldset.editor textarea,
+fieldset.standard textarea {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.5em
+}
+
+/* button */
+fieldset.standard button {
+    clear: left;
+    height: 2em;
+    font-size: 1.2em;
+    text-transform: uppercase; /* capitalize uppercase */
+    font-weight: bold; 
+}
+
+/* Custom button settings */
+fieldset.loginform button,
+fieldset.editor button,
+fieldset.accountsettings button {
+    min-width: 12em;
+    height: 2em;
+    font-size: 1.3em;
+    text-transform: uppercase; /* capitalize uppercase */
+    font-weight: bold; 
+}
+
+/* save button */
+fieldset.standard button.save {
+    background: url('../../img/silk/disk.png') no-repeat 3px 4px;
+    text-indent: 18px; 
+}
+
+/* delete button */
+fieldset.standard button.delete {
+    background: url('../../img/silk/delete.png') no-repeat 3px 4px;
+    text-indent: 15px; 
+}
+
+/* To hide a element */
+.hide {display: none;}
+
+
+/* -------------------------------------------------------------------------------------
+/* filedetails, custom settings */
+
+fieldset.filedetails {}
+
+fieldset.filedetails div.form-wrapper {
+    margin: auto;
+    width: 90%;
+}
+
+fieldset.filedetails div.buttonbar {
+    float: right;
+    margin-top: 1em;
+}
+
+fieldset.filedetails div.form-status {
+    float: left;
+    margin-top: 1em;
+}
+
+fieldset.filedetails label {
+    float: right;
+    display: block;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+fieldset.filedetails input {
+    float: right;
+    width: 100%;
+}
+
+
+/* -------------------------------------------------------------------------------------
+/* Custom settings for individual fields */
+
+/* Custom Account profile settings */
+fieldset.accountsettings input.avatar { width: 28em; }
+fieldset.accountsettings input.captcha { width: 300px; }
+fieldset.accountsettings input.account-dimmed { color: #999; }
+
+/* Custom Editor settings */
+fieldset.editor input.title { width: 400px; }
+fieldset.editor textarea.size98percentx300 { width: 98%; height: 300px; }
+fieldset.editor button { min-width: 8em;}
+/* field was too high*/
+#recaptcha_response_field{
+	height:1.5em;
+}
+
+
+/* -------------------------------------------------------------------------------------
+/ * Display source code */
+div.sourcecode,
+div.sourcecode_h40 {
+    border: 4px solid #eeeeee;
+    overflow: auto;
+    background: white;
+    padding-left: 10px;
+}

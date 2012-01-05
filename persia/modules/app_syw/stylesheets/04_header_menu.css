@@ -1,0 +1,24 @@
+/* =====================================================================================
+ *
+ * stylesheet.css
+ *
+ */
+ 
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Pagestructure
+ *
+ */
+
+
+div.pageHeaderMenu {
+	background-color: salmon;
+	border: 0px;
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: small;
+}
+
+

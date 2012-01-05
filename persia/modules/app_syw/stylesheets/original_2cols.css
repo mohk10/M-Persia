@@ -1,0 +1,174 @@
+/* =====================================================================================
+ *
+ * stylesheet.css
+ *
+ */
+ 
+ 
+/* -------------------------------------------------------------------------------------
+ *
+ * General
+ *
+ */
+ 
+body {	
+	font-family: Verdana, Sans-serif;
+	font-size: small;
+	color: #111111;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Pagestructure
+ *
+ */
+
+div.page {
+    /* min-width: 750px; */
+    width: 750px;               
+    margin: 0 auto;             
+    vertical-align: middle;     
+}
+
+div.login {
+	background-color: white;
+	border: none;
+	padding-bottom: 5px;
+	margin: 0px;
+	text-align: right;
+}
+
+div.pageHeader {
+	background-color: white;
+	border: dashed #333333 1px;
+}
+
+div.pageHeaderMenu {
+	background-color: white;
+	border: 0px;
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: small;
+}
+
+div.pageFooter {
+	background-color: white;
+	border: dashed #333333 1px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ * New pageBody supporting 2 column layout 
+ *
+ */
+div.pageBody {
+	background-color: white;
+	border: dashed #333333 1px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+div.pageBodyLeft {
+    float: left;
+    width: 460px;
+    padding: 10px;
+    background-color: springgreen;
+}
+
+div.pageBodyRight {
+    float: right;
+    width: 220px;
+    padding: 10px;
+    background-color: steelblue;
+}
+
+div.clear {
+    clear: both;
+}
+
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Other functional divs, not part of the main structure of the website
+ *
+ */
+ 
+div.errorMessage {
+	background-color: #7F3A34;
+	color: #111111;
+	border: #333333 4px solid;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+/* To display code. */
+fieldset.code {
+	background-color: #eeeeee;
+	color: #111111;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Fonts
+ *
+ */
+ 
+h1 {
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	border-bottom: double #333333 4px;
+}
+
+p.small {
+	font-size: x-small;
+}
+
+/* For the menu column, header */
+h3.menu {
+	text-transform: uppercase;
+	border-bottom: double #333333 1px;
+	font-size: small;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Links
+ *
+ */
+ 
+a, a:visited {
+	color: #111111;
+}
+
+a:hover {
+	color: #7F3A34;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Tables
+ *
+ */
+ 
+th, td {	
+	font-family: Verdana, Sans-serif;
+	font-size: small;
+	color: #111111;
+}
+
+th {
+	background: #cccccc;
+}

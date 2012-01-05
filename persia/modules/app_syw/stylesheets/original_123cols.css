@@ -1,0 +1,210 @@
+/* =====================================================================================
+ *
+ * stylesheet.css
+ *
+ */
+ 
+ 
+/* -------------------------------------------------------------------------------------
+ *
+ * General
+ *
+ */
+ 
+body {	
+	font-family: Verdana, Sans-serif;
+	font-size: small;
+	color: #111111;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Pagestructure
+ *
+ */
+
+div.page {
+    /* min-width: 750px; */
+    width: 750px;               
+    margin: 0 auto;             
+    vertical-align: middle;     
+}
+
+div.login {
+	background-color: white;
+	border: none;
+	padding-bottom: 5px;
+	margin: 0px;
+	text-align: right;
+}
+
+div.pageHeader {
+	background-color: white;
+	border: dashed #333333 1px;
+}
+
+div.pageHeaderMenu {
+	background-color: white;
+	border: 0px;
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: small;
+}
+
+div.pageFooter {
+	background-color: white;
+	border: dashed #333333 1px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ * pageBody supporting 1, 2, 3 column layout 
+ *
+ */
+div.pageBody {
+	background-color: white;
+	border: dashed #333333 1px;
+	margin-top: 10px;
+}
+
+/* The left column */
+div.pageBodyLeft2, div.pageBodyLeft3  {
+    float: left;
+    padding: 10px;
+    background-color: springgreen;
+}
+
+div.pageBodyLeft2  {
+    width: 160px;
+}
+
+div.pageBodyLeft3  {
+    width: 140px;
+}
+
+/* The right column */
+div.pageBodyRight2, div.pageBodyRight3 {
+    float: right;
+    padding: 10px;
+    background-color: steelblue;
+}
+
+div.pageBodyRight2 {
+    width: 160px;
+}
+
+div.pageBodyRight3 {
+    width: 140px;
+}
+
+/* The main column */
+div.pageBodyMain1, div.pageBodyMain2, div.pageBodyMain3 {
+    float: left;
+    width: 408px;
+    padding: 10px;
+    background-color: darksalmon;
+}
+
+div.pageBodyMain1 {
+    width: 728px;
+}
+
+div.pageBodyMain2 {
+    width: 548px;
+}
+
+div.pageBodyMain3 {
+    width: 408px;
+}
+
+/* Clearer */
+div.clear {
+    clear: both;
+}
+
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Other functional divs, not part of the main structure of the website
+ *
+ */
+ 
+div.errorMessage {
+	background-color: #7F3A34;
+	color: #111111;
+	border: #333333 4px solid;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+/* To display code. */
+fieldset.code {
+	background-color: #eeeeee;
+	color: #111111;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Fonts
+ *
+ */
+ 
+h1 {
+	font-family: Verdana, Sans-serif;
+	text-align: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	border-bottom: double #333333 4px;
+}
+
+p.small {
+	font-size: x-small;
+}
+
+/* For the menu column, header */
+h3.menu {
+	text-transform: uppercase;
+	border-bottom: double #333333 1px;
+	font-size: small;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Links
+ *
+ */
+ 
+a, a:visited {
+	color: #111111;
+}
+
+a:hover {
+	color: #7F3A34;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ *
+ * Tables
+ *
+ */
+ 
+th, td {	
+	font-family: Verdana, Sans-serif;
+	font-size: small;
+	color: #111111;
+}
+
+th {
+	background: #cccccc;
+}
